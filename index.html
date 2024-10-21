@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>KeremDemir</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav
+                class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+            >
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="text-primary">KeremDemir</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active"
+                            >Domov</a
+                        >
+                        <a href="about.html" class="nav-item nav-link">O nás</a>
+                        <a href="service.html" class="nav-item nav-link"
+                            >Služby</a
+                        >
+                        <a href="testimonial.html" class="nav-item nav-link"
+                            >Referencie</a
+                        >
+                        <a href="contact.html" class="nav-item nav-link"
+                            >Kontakt</a
+                        >
+                    </div>
+                    <div class="d-none d-xl-flex me-3">
+                        <div
+                            class="d-flex flex-column pe-3 border-end border-primary"
+                        >
+                            <span class="text-body"
+                                >Môžete nás kontaktovať</span
+                            >
+                            <a href="tel:+421950187781">
+                                <span class="text-primary"
+                                    >Bezplatne: +421950187781</span
+                                >
+                            </a>
+                        </div>
+                    </div>
+                    <a
+                        href="contact.html"
+                        class="btn btn-primary rounded-pill d-inline-flex flex-shrink-0 py-2 px-4"
+                        >Kontaktujte nás</a
+                    >
+                </div>
+            </nav>
+
+            <!-- Carousel Start -->
+            <div class="carousel-header">
+                <div
+                    id="carouselId"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                >
+                    <ol class="carousel-indicators">
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="0"
+                            class="active"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="1"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="2"
+                        ></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img
+                                src="img/carousel-1.jpg"
+                                class="img-fluid w-100"
+                                alt="Image"
+                            />
+                            <div class="carousel-caption-1">
+                                <div
+                                    class="carousel-caption-1-content"
+                                    style="max-width: 900px"
+                                >
+                                    <h4
+                                        class="text-white text-uppercase fw-bold mb-4 fadeInLeft animated"
+                                        data-animation="fadeInLeft"
+                                        data-delay="1s"
+                                        style="animation-delay: 1s"
+                                        style="letter-spacing: 3px"
+                                    >
+                                        Úvod do SMM stratégie
+                                    </h4>
+                                    <h1
+                                        class="display-2 text-capitalize text-white mb-4 fadeInLeft animated"
+                                        data-animation="fadeInLeft"
+                                        data-delay="1.3s"
+                                        style="animation-delay: 1.3s"
+                                    >
+                                        Základy úspešnej stratégie sociálnych
+                                        médií
+                                    </h1>
+                                    <p
+                                        class="mb-5 fs-5 text-white fadeInLeft animated"
+                                        data-animation="fadeInLeft"
+                                        data-delay="1.5s"
+                                        style="animation-delay: 1.5s"
+                                    >
+                                        Objavte základné princípy SMM a naučte
+                                        sa, ako efektívne komunikovať so svojím
+                                        publikom. Tento modul vás prevedie
+                                        kľúčovými konceptmi, ako sú ciele,
+                                        cielenie a analýza trhu.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="img/carousel-2.jpg"
+                                class="img-fluid w-100"
+                                alt="Image"
+                            />
+                            <div class="carousel-caption-2">
+                                <div
+                                    class="carousel-caption-2-content"
+                                    style="max-width: 900px"
+                                >
+                                    <h4
+                                        class="text-white text-uppercase fw-bold mb-4 fadeInRight animated"
+                                        data-animation="fadeInRight"
+                                        data-delay="1s"
+                                        style="animation-delay: 1s"
+                                        style="letter-spacing: 3px"
+                                    >
+                                        Tvorba obsahu
+                                    </h4>
+                                    <h1
+                                        class="display-2 text-capitalize text-white mb-4 fadeInRight animated"
+                                        data-animation="fadeInRight"
+                                        data-delay="1.3s"
+                                        style="animation-delay: 1.3s"
+                                    >
+                                        Ako vytvoriť pútavý a relevantný obsah
+                                    </h1>
+                                    <p
+                                        class="mb-5 fs-5 text-white fadeInRight animated"
+                                        data-animation="fadeInRight"
+                                        data-delay="1.5s"
+                                        style="animation-delay: 1.5s"
+                                    >
+                                        Naučte sa, ako vytvárať obsah, ktorý
+                                        osloví vaše publikum a podporí vašu
+                                        značku. Tento modul sa zameriava na
+                                        rôzne formáty obsahu a stratégie jeho
+                                        distribúcie na rôznych platformách.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselId"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon btn btn-primary fadeInLeft animated"
+                            aria-hidden="true"
+                            data-animation="fadeInLeft"
+                            data-delay="1.1s"
+                            style="animation-delay: 1.3s"
+                        >
+                            <i class="fa fa-angle-left fa-3x"></i
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselId"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon btn btn-primary fadeInRight animated"
+                            aria-hidden="true"
+                            data-animation="fadeInLeft"
+                            data-delay="1.1s"
+                            style="animation-delay: 1.3s"
+                            ><i class="fa fa-angle-right fa-3x"></i
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- Carousel End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- feature Start -->
+        <div class="container-fluid feature bg-light py-5">
+            <div class="container py-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.2s"
+                    style="max-width: 800px"
+                >
+                    <h4 class="text-uppercase text-primary">
+                        Objavte naše jedinečné funkcie
+                    </h4>
+                    <h1 class="display-3 text-capitalize mb-3">
+                        Prečo si vybrať náš kurz SMM stratégie
+                    </h1>
+                    <p>
+                        Náš kurz je navrhnutý tak, aby vám poskytol všetky
+                        nástroje a vedomosti potrebné na úspešnú správu
+                        sociálnych médií. S praktickými príkladmi a odbornými
+                        radami sa naučíte, ako vytvoriť efektívnu SMM stratégiu,
+                        ktorá osloví vaše publikum.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <div class="feature-item p-4">
+                            <div class="feature-icon mb-3">
+                                <i
+                                    class="fas fa-solid fa-user text-white fa-3x"
+                                ></i>
+                            </div>
+                            <a href="#" class="h4 mb-3"> Praktické cvičenia </a>
+                            <p class="mb-3">
+                                Získajte hands-on skúsenosti prostredníctvom
+                                interaktívnych cvičení a projektov, ktoré vás
+                                pripravia na reálne výzvy v oblasti SMM.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.4s"
+                    >
+                        <div class="feature-item p-4">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-filter text-white fa-3x"></i>
+                            </div>
+                            <a href="#" class="h4 mb-3"> Odborné vedenie </a>
+                            <p class="mb-3">
+                                Naučte sa od skúsených profesionálov, ktorí vám
+                                poskytnú cenné poznatky a osvedčené postupy,
+                                ktoré môžete okamžite aplikovať.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.6s"
+                    >
+                        <div class="feature-item p-4">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-recycle text-white fa-3x"></i>
+                            </div>
+                            <a href="#" class="h4 mb-3"> Flexibilný rozvrh </a>
+                            <p class="mb-3">
+                                Učte sa vlastným tempom s prístupom k materiálom
+                                kedykoľvek a kdekoľvek, čo vám umožní
+                                prispôsobiť vzdelávanie vašim potrebám.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.8s"
+                    >
+                        <div class="feature-item p-4">
+                            <div class="feature-icon mb-3">
+                                <i
+                                    class="fas fa-microscope text-white fa-3x"
+                                ></i>
+                            </div>
+                            <a href="#" class="h4 mb-3"> Komunitná podpora</a>
+                            <p class="mb-3">
+                                Spojte sa s ostatnými účastníkmi kurzu a
+                                zdieľajte svoje skúsenosti a poznatky. Naša
+                                podporná komunita vám pomôže v procese učenia a
+                                rozvoja.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- feature End -->
+
+        <!-- About Start -->
+        <div class="container-fluid about overflow-hidden py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="approach-img rounded h-100">
+                            <img
+                                src="img/approach.jpg"
+                                class="img-fluid rounded h-100 w-100"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="about-item">
+                            <h4 class="text-primary text-uppercase">
+                                Náš jedinečný prístup
+                            </h4>
+                            <h1 class="display-3 mb-3">
+                                Ako pristupujeme k učeniu SMM stratégie
+                            </h1>
+                            <p class="mb-4">
+                                Náš kurz SMM stratégie je navrhnutý s dôrazom na
+                                praktické aplikácie a inovačné metódy učenia.
+                                Veríme, že na dosiahnutie úspechu v dynamickom
+                                svete sociálnych médií je kľúčové spájať
+                                teoretické poznatky s reálnymi skúsenosťami.
+                                Preto sme vyvinuli prístup, ktorý je založený na
+                                interaktívnom učení, aktívnej účasti a
+                                praktickej aplikácii získaných vedomostí. Každý
+                                modul kurzu je starostlivo koncipovaný tak, aby
+                                spájal teóriu s praktickými cvičeniami. Naši
+                                odborníci z praxe prinášajú do lekcií aktuálne
+                                trendy a osvedčené stratégie, ktoré vám pomôžu
+                                získať prehľad o najnovších technikách a
+                                nástrojoch v oblasti SMM. Okrem teoretických
+                                prednášok vás naučíme, ako efektívne plánovať a
+                                implementovať SMM stratégie, analyzovať výsledky
+                                a prispôsobovať svoje prístupy na základe
+                                spätnej väzby. Súčasťou nášho prístupu je aj
+                                aktívna podpora a komunita účastníkov.
+                                Umožňujeme vám komunikovať s ostatnými
+                                študentmi, zdieľať myšlienky a osvedčené
+                                praktiky a spolupracovať na rôznych projektoch.
+                                Týmto spôsobom sa učíte nielen z teórie, ale aj
+                                z cenných skúseností ostatných, čo obohacuje
+                                vašu vlastnú perspektívu. Okrem toho poskytujeme
+                                flexibilný rozvrh, ktorý vám umožňuje učiť sa
+                                vlastným tempom a prispôsobiť vzdelávanie vašim
+                                potrebám a časovým možnostiam. Naším cieľom je
+                                poskytnúť vám všetky nástroje a vedomosti, ktoré
+                                potrebujete, aby ste sa stali odborníkom v
+                                oblasti SMM a dokázali vytvoriť úspešné kampane,
+                                ktoré oslovia vaše cieľové publikum a prinesú
+                                očakávané výsledky. Naša filozofia je, že úspech
+                                v SMM neprichádza len z teoretických vedomostí,
+                                ale aj z praxe, experimentovania a neustáleho
+                                učenia sa. S nami získate všetko potrebné na to,
+                                aby ste sa stali lídrom v oblasti sociálnych
+                                médií.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Fact Counter -->
+        <div class="container-fluid counter py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <div class="counter-item">
+                            <div class="counter-item-icon mx-auto">
+                                <i
+                                    class="fas fa-thumbs-up fa-3x text-white"
+                                ></i>
+                            </div>
+                            <h4 class="text-white my-4">Spokojní klienti</h4>
+                            <div class="counter-counting">
+                                <span
+                                    class="text-white fs-2 fw-bold"
+                                    data-toggle="counter-up"
+                                    >1456</span
+                                >
+                                <span class="h1 fw-bold text-white">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.4s"
+                    >
+                        <div class="counter-item">
+                            <div class="counter-item-icon mx-auto">
+                                <i
+                                    class="fas fa-regular fa-calendar-check fa-3x text-white"
+                                ></i>
+                            </div>
+                            <h4 class="text-white my-4">Dokončené projekty</h4>
+                            <div class="counter-counting">
+                                <span
+                                    class="text-white fs-2 fw-bold"
+                                    data-toggle="counter-up"
+                                    >113</span
+                                >
+                                <span class="h1 fw-bold text-white">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.6s"
+                    >
+                        <div class="counter-item">
+                            <div class="counter-item-icon mx-auto">
+                                <i class="fas fa-users fa-3x text-white"></i>
+                            </div>
+                            <h4 class="text-white my-4">Zamestnanci</h4>
+                            <div class="counter-counting">
+                                <span
+                                    class="text-white fs-2 fw-bold"
+                                    data-toggle="counter-up"
+                                    >53</span
+                                >
+                                <span class="h1 fw-bold text-white">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.8s"
+                    >
+                        <div class="counter-item">
+                            <div class="counter-item-icon mx-auto">
+                                <i class="fas fa-heart fa-3x text-white"></i>
+                            </div>
+                            <h4 class="text-white my-4">Roky skúseností</h4>
+                            <div class="counter-counting">
+                                <span
+                                    class="text-white fs-2 fw-bold"
+                                    data-toggle="counter-up"
+                                    >17</span
+                                >
+                                <span class="h1 fw-bold text-white">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact Counter -->
+
+        <!-- Products Start -->
+        <div class="container-fluid product py-5">
+            <div class="container py-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.2s"
+                    style="max-width: 800px"
+                >
+                    <h4 class="text-uppercase text-primary">
+                        Prečo si vybrať nás
+                    </h4>
+                    <h1 class="display-3 text-capitalize mb-3">
+                        Výhody nášho kurzu SMM stratégie
+                    </h1>
+                    <p>
+                        Pri výbere kurzu na učenie SMM stratégie je dôležité
+                        zvážiť, čo vám jednotlivé programy ponúkajú. Náš kurz sa
+                        odlišuje svojím praktickým prístupom, aktuálnymi
+                        informáciami a podporou, ktorú poskytujeme našim
+                        študentom. Sme presvedčení, že naše jedinečné výhody vám
+                        pomôžu nielen získať teoretické vedomosti, ale aj
+                        praktické zručnosti, ktoré potrebujete na úspešné
+                        riadenie marketingu na sociálnych médiách.
+                    </p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <div class="product-item">
+                            <img
+                                src="img/reasson1.jpg"
+                                class="img-fluid w-100 rounded-top"
+                                alt="Image"
+                            />
+                            <div
+                                class="product-content bg-light text-center rounded-bottom p-4"
+                            >
+                                <a href="#" class="h4 d-inline-block mb-3">
+                                    Odborní lektori</a
+                                >
+                                <p>
+                                    Naši lektori sú skúsení odborníci v oblasti
+                                    SMM, ktorí prichádzajú s najnovšími trendmi
+                                    a osvedčenými praktikami, aby vám poskytli
+                                    aktuálne a relevantné poznatky.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.4s"
+                    >
+                        <div class="product-item">
+                            <img
+                                src="img/reasson2.jpg"
+                                class="img-fluid w-100 rounded-top"
+                                alt="Image"
+                            />
+                            <div
+                                class="product-content bg-light text-center rounded-bottom p-4"
+                            >
+                                <a href="#" class="h4 d-inline-block mb-3">
+                                    Praktické učenie</a
+                                >
+                                <p>
+                                    Kurz je zameraný na praktické cvičenia a
+                                    projekty, ktoré vám umožňujú aplikovať
+                                    naučené zručnosti v reálnych situáciách, čím
+                                    zvyšujú vašu pripravenosť na pracovný trh.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.6s"
+                    >
+                        <div class="product-item">
+                            <img
+                                src="img/reasson3.jpg"
+                                class="img-fluid w-100 rounded-top"
+                                alt="Image"
+                            />
+                            <div
+                                class="product-content bg-light text-center rounded-bottom p-4"
+                            >
+                                <a href="#" class="h4 d-inline-block mb-3">
+                                    Flexibilita a podpora
+                                </a>
+                                <p>
+                                    Poskytujeme flexibilný prístup k
+                                    vzdelávaniu, ktorý si môžete prispôsobiť
+                                    podľa svojich potrieb. Naša podpora a
+                                    komunita vám pomôže získať cenné rady a
+                                    spätnú väzbu počas celého procesu učenia.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Products End -->
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog pb-5">
+            <div class="container pb-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.2s"
+                    style="max-width: 800px"
+                >
+                    <h4 class="text-uppercase text-primary">
+                        Náš najnovší blog
+                    </h4>
+                    <h1 class="display-3 text-capitalize mb-3">
+                        Aktuálne príspevky o SMM stratégii
+                    </h1>
+                    <p>
+                        V našom blogu sa zameriavame na najnovšie trendy, tipy a
+                        osvedčené postupy v oblasti marketingu na sociálnych
+                        médiách. Pripravili sme pre vás sériu článkov, ktoré vám
+                        poskytnú cenné informácie a inšpiráciu na zlepšenie
+                        vašich SMM stratégií. Čítaním našich príspevkov sa
+                        naučíte, ako efektívne využiť sociálne médiá na
+                        dosiahnutie svojich marketingových cieľov.
+                    </p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-1.jpg"
+                                    class="img-fluid rounded-top w-100"
+                                    alt=""
+                                />
+                                <div class="blog-date px-4 py-2">
+                                    <i class="fa fa-calendar-alt me-1"></i> Jan
+                                    12 2023
+                                </div>
+                            </div>
+                            <div class="blog-content rounded-bottom p-4">
+                                <a class="h4 d-inline-block mb-3">
+                                    5 kľúčových trendov v SMM, ktoré by ste mali
+                                    poznať</a
+                                >
+                                <p>
+                                    V tomto článku sa pozrieme na najnovšie
+                                    trendy v oblasti marketingu na sociálnych
+                                    médiách. Od nástupu nových platforiem po
+                                    zmeny v algoritmoch – zistite, aké faktory
+                                    ovplyvňujú efektivitu vašich kampaní a ako
+                                    ich môžete využiť vo svoj prospech. Naučte
+                                    sa prispôsobiť svoje stratégie, aby ste
+                                    zostali relevantní v dynamickom online
+                                    prostredí.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.4s"
+                    >
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-2.jpg"
+                                    class="img-fluid rounded-top w-100"
+                                    alt=""
+                                />
+                                <div class="blog-date px-4 py-2">
+                                    <i class="fa fa-calendar-alt me-1"></i> Máj
+                                    03 2024
+                                </div>
+                            </div>
+                            <div class="blog-content rounded-bottom p-4">
+                                <a class="h4 d-inline-block mb-3">
+                                    Ako vytvoriť obsah, ktorý zaujme vaše
+                                    publikum</a
+                                >
+                                <p>
+                                    Obsah je kráľ, a v tomto článku sa dozviete,
+                                    ako vytvoriť pútavý a relevantný obsah pre
+                                    vaše sociálne médiá. Prejdeme si rôzne
+                                    formáty, ako sú videá, infografiky a
+                                    príspevky, a poskytneme tipy na
+                                    optimalizáciu vášho obsahu pre rôzne
+                                    platformy. Získajte praktické rady, ktoré
+                                    vám pomôžu zvýšiť angažovanosť vašich
+                                    sledovateľov.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.6s"
+                    >
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-3.jpg"
+                                    class="img-fluid rounded-top w-100"
+                                    alt=""
+                                />
+                                <div class="blog-date px-4 py-2">
+                                    <i class="fa fa-calendar-alt me-1"></i> Sep
+                                    11 2023
+                                </div>
+                            </div>
+                            <div class="blog-content rounded-bottom p-4">
+                                <a class="h4 d-inline-block mb-3">
+                                    Metriky, ktoré by ste mali sledovať pre
+                                    úspešnú SMM stratégiu</a
+                                >
+                                <p>
+                                    V tomto článku sa pozrieme na dôležité
+                                    metriky, ktoré vám pomôžu vyhodnotiť
+                                    úspešnosť vašich kampaní na sociálnych
+                                    médiách. Naučte sa, ktoré ukazovatele sú
+                                    kľúčové pre sledovanie výkonu vašich
+                                    príspevkov a ako tieto údaje interpretovať.
+                                    Poradíme vám, ako nastaviť ciele a
+                                    optimalizovať stratégie na základe analýzy
+                                    vašich výsledkov.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer py-5 wow fadeIn"
+            data-wow-delay="0.2s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h3 class="text-white mb-4">KeremDemir</h3>
+                            <p class="mb-3">
+                                Naša spoločnosť je oddaná poskytovaniu
+                                kvalitného vzdelávania v oblasti SMM stratégie.
+                                S našimi odbornými kurzami sa zameriavame na
+                                vybavenie študentov praktickými zručnosťami a
+                                znalosťami potrebnými na úspech v dynamickom
+                                svete marketingu na sociálnych médiách.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Odkazy</h4>
+                            <a href="index.html"
+                                ><i class="fas fa-angle-right me-2"></i>Domov</a
+                            >
+                            <a href="about.html"
+                                ><i class="fas fa-angle-right me-2"></i>O nás</a
+                            >
+                            <a href="service.html"
+                                ><i class="fas fa-angle-right me-2"></i>Kurzy</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i
+                                >Podmienky používania</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>Ochrana
+                                osobných údajov</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Otváracie hodiny</h4>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">
+                                    Pondelok - Piatok:
+                                </h6>
+                                <p class="text-white mb-0">09:00 do 19:00</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Sobota:</h6>
+                                <p class="text-white mb-0">10:00 do 17:00</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Dovolenka:</h6>
+                                <p class="text-white mb-0">
+                                    Nedeľa je naším voľným dňom
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">
+                                Kontaktné informácie
+                            </h4>
+                            <a href="#"
+                                ><i class="fa fa-map-marker-alt me-2"></i>Trieda
+                                KVP 1, 040 23 Sídlisko KVP, Slovensko</a
+                            >
+                            <a href="mailto:kerem_demir@gmail.com"
+                                ><i class="fas fa-envelope me-2"></i
+                                >kerem_demir@gmail.com</a
+                            >
+                            <a href="tel:+421950187781" class="mb-3"
+                                ><i class="fas fa-phone-alt me-2"></i>+421 950
+                                187 781</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Newsletter</h4>
+                            <p>
+                                Zostaňte informovaní a predbehnite konkurenciu s
+                                naším exkluzívnym newsletterom. Prihláste sa na
+                                odber, aby ste pravidelne dostávali aktualizácie
+                                o najnovších trendoch v marketingu, odborné
+                                názory a strategické tipy.
+                            </p>
+                        </div>
+                        <div class="position-relative">
+                            <input
+                                class="form-control rounded-pill w-100 py-3 ps-4 pe-5"
+                                type="text"
+                                placeholder="Zadajte svoj email"
+                                id="email"
+                            />
+                            <button
+                                type="button"
+                                id="submit"
+                                onclick="sendForm()"
+                                class="btn btn-secondary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2"
+                            >
+                                Odoslať
+                            </button>
+                        </div>
+                        <div
+                            id="result"
+                            style="color: red; font-size: 12px"
+                        ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Súhlas s cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Táto webová stránka používa cookies na poskytovanie lepšej a
+                    relevantnejšej používateľskej skúsenosti na stránke.
+                    <a href="#">Zistiť viac...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Prijať</button>
+                <button class="cookie-button" id="declineBtn">Odmietnuť</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-secondary btn-lg-square rounded-circle back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>

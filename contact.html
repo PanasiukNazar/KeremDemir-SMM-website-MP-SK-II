@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>KeremDemir</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav
+                class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+            >
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="text-primary">KeremDemir</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Domov</a>
+                        <a href="about.html" class="nav-item nav-link">O nás</a>
+                        <a href="service.html" class="nav-item nav-link"
+                            >Služby</a
+                        >
+                        <a href="testimonial.html" class="nav-item nav-link"
+                            >Referencie</a
+                        >
+                        <a href="contact.html" class="nav-item nav-link active"
+                            >Kontakt</a
+                        >
+                    </div>
+                    <div class="d-none d-xl-flex me-3">
+                        <div
+                            class="d-flex flex-column pe-3 border-end border-primary"
+                        >
+                            <span class="text-body"
+                                >Môžete nás kontaktovať</span
+                            >
+                            <a href="tel:+421950187781">
+                                <span class="text-primary"
+                                    >Bezplatne: +421950187781</span
+                                >
+                            </a>
+                        </div>
+                    </div>
+                    <a
+                        href="contact.html"
+                        class="btn btn-primary rounded-pill d-inline-flex flex-shrink-0 py-2 px-4"
+                        >Kontaktujte nás</a
+                    >
+                </div>
+            </nav>
+            <div class="container-fluid bg-breadcrumb">
+                <div
+                    class="container text-center py-5"
+                    style="max-width: 900px"
+                >
+                    <h4
+                        class="text-white display-4 mb-4 wow fadeInDown"
+                        data-wow-delay="0.1s"
+                    >
+                        Kontakt
+                    </h4>
+                    <ol
+                        class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown"
+                        data-wow-delay="0.3s"
+                    >
+                        <li class="breadcrumb-item">
+                            <a href="index.html">Domov</a>
+                        </li>
+                        <li class="breadcrumb-item active text-primary">
+                            Kontakt
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <!-- Header End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Contact Start -->
+        <div class="container-fluid contact bg-light py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div
+                        class="col-lg-6 h-100 wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <div
+                            class="text-center mx-auto pb-5"
+                            style="max-width: 800px"
+                        >
+                            <h4 class="text-uppercase text-primary">
+                                Spojme sa
+                            </h4>
+                            <h1 class="display-3 text-capitalize mb-3">
+                                Pošlite nám správu
+                            </h1>
+                            <p class="mb-0">
+                                Máte otázky, potrebujete viac informácií o
+                                našich kurzoch alebo sa chcete dozvedieť viac o
+                                SMM stratégii? Neváhajte nás kontaktovať! Našim
+                                tímom odborníkov sme tu, aby sme vám pomohli a
+                                odpovedali na všetky vaše otázky.
+                            </p>
+                        </div>
+                        <form>
+                            <div class="row g-4">
+                                <div class="col-lg-12 col-xl-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control border-0"
+                                            id="name"
+                                            placeholder="Your Name"
+                                        />
+                                        <label for="name">Vaše meno</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-xl-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="email"
+                                            class="form-control border-0"
+                                            id="email"
+                                            placeholder="Your Email"
+                                        />
+                                        <label for="email">Váš email</label>
+                                        <div
+                                            id="result"
+                                            style="color: red; font-size: 12px"
+                                        ></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-xl-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="phone"
+                                            class="form-control border-0"
+                                            id="phone"
+                                            placeholder="Phone"
+                                        />
+                                        <label for="phone">Váš telefón</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-xl-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control border-0"
+                                            id="subject"
+                                            placeholder="Subject"
+                                        />
+                                        <label for="subject">Predmet</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea
+                                            class="form-control border-0"
+                                            placeholder="Zanechajte tu správu"
+                                            id="message"
+                                            style="height: 175px"
+                                        ></textarea>
+                                        <label for="message">Správa</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        id="submit"
+                                        onclick="sendForm()"
+                                    >
+                                        Odoslať správu
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div
+                                    class="d-inline-flex rounded bg-white w-100 p-4"
+                                >
+                                    <i
+                                        class="fas fa-map-marker-alt fa-2x text-secondary me-4"
+                                    ></i>
+                                    <div>
+                                        <h4>Adresa</h4>
+                                        <p class="mb-0">
+                                            Trieda KVP 1, 040 23 Sídlisko KVP,
+                                            Slovensko
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-xl-6">
+                                <div
+                                    class="d-inline-flex rounded bg-white w-100 p-4"
+                                >
+                                    <i
+                                        class="fas fa-envelope fa-2x text-secondary me-4"
+                                    ></i>
+                                    <div>
+                                        <h4>Píšte nám</h4>
+                                        <p class="mb-0">
+                                            kerem_demir@gmail.com
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-xl-6">
+                                <div
+                                    class="d-inline-flex rounded bg-white w-100 p-4"
+                                >
+                                    <i
+                                        class="fa fa-phone-alt fa-2x text-secondary me-4"
+                                    ></i>
+                                    <div>
+                                        <h4>Telefón</h4>
+                                        <p class="mb-0">+421 950 187 781</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="h-100 overflow-hidden">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7590.219067933153!2d21.214774418836022!3d48.71747499400271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ee1708a049a85%3A0xf407dbe4c797c983!2sSM%20Bouw%20s.r.o!5e0!3m2!1suk!2sua!4v1729526001524!5m2!1suk!2sua"
+                                        class="w-100 rounded"
+                                        style="height: 400px"
+                                        loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"
+                                    ></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer py-5 wow fadeIn"
+            data-wow-delay="0.2s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h3 class="text-white mb-4">KeremDemir</h3>
+                            <p class="mb-3">
+                                Naša spoločnosť je oddaná poskytovaniu
+                                kvalitného vzdelávania v oblasti SMM stratégie.
+                                S našimi odbornými kurzami sa zameriavame na
+                                vybavenie študentov praktickými zručnosťami a
+                                znalosťami potrebnými na úspech v dynamickom
+                                svete marketingu na sociálnych médiách.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Odkazy</h4>
+                            <a href="index.html"
+                                ><i class="fas fa-angle-right me-2"></i>Domov</a
+                            >
+                            <a href="about.html"
+                                ><i class="fas fa-angle-right me-2"></i>O nás</a
+                            >
+                            <a href="service.html"
+                                ><i class="fas fa-angle-right me-2"></i>Kurzy</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i
+                                >Podmienky používania</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>Ochrana
+                                osobných údajov</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Otváracie hodiny</h4>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">
+                                    Pondelok - Piatok:
+                                </h6>
+                                <p class="text-white mb-0">09:00 do 19:00</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Sobota:</h6>
+                                <p class="text-white mb-0">10:00 do 17:00</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Dovolenka:</h6>
+                                <p class="text-white mb-0">
+                                    Nedeľa je naším voľným dňom
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">
+                                Kontaktné informácie
+                            </h4>
+                            <a href="#"
+                                ><i class="fa fa-map-marker-alt me-2"></i>Trieda
+                                KVP 1, 040 23 Sídlisko KVP, Slovensko</a
+                            >
+                            <a href="mailto:kerem_demir@gmail.com"
+                                ><i class="fas fa-envelope me-2"></i
+                                >kerem_demir@gmail.com</a
+                            >
+                            <a href="tel:+421950187781" class="mb-3"
+                                ><i class="fas fa-phone-alt me-2"></i>+421 950
+                                187 781</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Súhlas s cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Táto webová stránka používa cookies na poskytovanie lepšej a
+                    relevantnejšej používateľskej skúsenosti na stránke.
+                    <a href="#">Zistiť viac...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Prijať</button>
+                <button class="cookie-button" id="declineBtn">Odmietnuť</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-secondary btn-lg-square rounded-circle back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
